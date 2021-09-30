@@ -1,0 +1,25 @@
+Learning Rate: 0.001
+Action Dropout: 1.0
+Replay Buffer Size: 5000
+Number of Episodes: 10
+Epoch: 0. Accuracy: 11.0 %. Q error: 12475.684. Initial Value: 305.68. Final Value: 271.51.
+Epoch: 1000. Accuracy: 3.0 %. Q error: 8681.32. Initial Value: 305.68. Final Value: 294.02.
+Epoch: 2000. Accuracy: 15.0 %. Q error: 10529.207. Initial Value: 305.68. Final Value: 261.52.
+Epoch: 3000. Accuracy: 9.0 %. Q error: 15223.786. Initial Value: 305.68. Final Value: 276.64.
+Epoch: 4000. Accuracy: 20.0 %. Q error: 12190.099. Initial Value: 305.68. Final Value: 250.3.
+Epoch: 5000. Accuracy: 10.0 %. Q error: 11679.363. Initial Value: 305.68. Final Value: 276.77.
+Epoch: 6000. Accuracy: 4.0 %. Q error: 14513.977. Initial Value: 305.68. Final Value: 290.79.
+Epoch: 7000. Accuracy: 18.0 %. Q error: 23355.137. Initial Value: 305.68. Final Value: 255.06.
+Epoch: 8000. Accuracy: 19.0 %. Q error: 12240.431. Initial Value: 305.68. Final Value: 254.57.
+Epoch: 9000. Accuracy: 26.0 %. Q error: 14328.049. Initial Value: 305.68. Final Value: 240.74.
+Epoch: 10000. Accuracy: 32.0 %. Q error: 18975.215. Initial Value: 305.68. Final Value: 234.35.
+Epoch: 11000. Accuracy: 39.0 %. Q error: 25342.791. Initial Value: 305.68. Final Value: 224.8.
+Epoch: 12000. Accuracy: 73.0 %. Q error: 36379.547. Initial Value: 305.68. Final Value: 176.16.
+Epoch: 13000. Accuracy: 42.0 %. Q error: 30025.242. Initial Value: 305.68. Final Value: 209.91.
+Epoch: 14000. Accuracy: 50.0 %. Q error: 21236.699. Initial Value: 305.68. Final Value: 198.73.
+Epoch: 15000. Accuracy: 54.0 %. Q error: 22944.412. Initial Value: 305.68. Final Value: 197.22.
+Epoch: 16000. Accuracy: 43.0 %. Q error: 17428.518. Initial Value: 305.68. Final Value: 215.73.
+Epoch: 17000. Accuracy: 50.0 %. Q error: 20460.914. Initial Value: 305.68. Final Value: 198.56.
+Epoch: 18000. Accuracy: 52.0 %. Q error: 40269.031. Initial Value: 305.68. Final Value: 201.91.
+Epoch: 19000. Accuracy: 33.0 %. Q error: 26809.484. Initial Value: 305.68. Final Value: 244.35.
+Epoch: 20000. Accuracy: 44.0 %. Q error: 20521.635. Initial Value: 305.68. Final Value: 214.27.

@@ -1,0 +1,25 @@
+Learning Rate: 0.001
+Action Dropout: 1.0
+Replay Buffer Size: 5000
+Number of Episodes: 10
+Epoch: 0. Accuracy: 5.0 %. Q error: 39897.195. Initial Value: 314.13. Final Value: 321.83.
+Epoch: 1000. Accuracy: 1.0 %. Q error: 89391.781. Initial Value: 314.13. Final Value: 199.74.
+Epoch: 2000. Accuracy: 0.0 %. Q error: 74387.422. Initial Value: 314.13. Final Value: 200.84.
+Epoch: 3000. Accuracy: 4.0 %. Q error: 78249.359. Initial Value: 314.13. Final Value: 172.24.
+Epoch: 4000. Accuracy: 4.0 %. Q error: 65783.172. Initial Value: 314.13. Final Value: 187.95.
+Epoch: 5000. Accuracy: 3.0 %. Q error: 76558.594. Initial Value: 314.13. Final Value: 197.3.
+Epoch: 6000. Accuracy: 3.0 %. Q error: 80004.102. Initial Value: 314.13. Final Value: 192.62.
+Epoch: 7000. Accuracy: 2.0 %. Q error: 66853.234. Initial Value: 314.13. Final Value: 174.7.
+Epoch: 8000. Accuracy: 4.0 %. Q error: 66305.383. Initial Value: 314.13. Final Value: 184.15.
+Epoch: 9000. Accuracy: 4.0 %. Q error: 71584.406. Initial Value: 314.13. Final Value: 192.23.
+Epoch: 10000. Accuracy: 4.0 %. Q error: 64721.641. Initial Value: 314.13. Final Value: 197.38.
+Epoch: 11000. Accuracy: 3.0 %. Q error: 65940.453. Initial Value: 314.13. Final Value: 169.79.
+Epoch: 12000. Accuracy: 2.0 %. Q error: 69580.094. Initial Value: 314.13. Final Value: 184.47.
+Epoch: 13000. Accuracy: 4.0 %. Q error: 66390.141. Initial Value: 314.13. Final Value: 165.08.
+Epoch: 14000. Accuracy: 5.0 %. Q error: 55850.488. Initial Value: 314.13. Final Value: 160.59.
+Epoch: 15000. Accuracy: 3.0 %. Q error: 56858.875. Initial Value: 314.13. Final Value: 138.54.
+Epoch: 16000. Accuracy: 2.0 %. Q error: 62550.625. Initial Value: 314.13. Final Value: 161.71.
+Epoch: 17000. Accuracy: 2.0 %. Q error: 49483.594. Initial Value: 314.13. Final Value: 146.51.
+Epoch: 18000. Accuracy: 4.0 %. Q error: 48967.18. Initial Value: 314.13. Final Value: 130.14.
+Epoch: 19000. Accuracy: 3.0 %. Q error: 43902.602. Initial Value: 314.13. Final Value: 179.04.
+Epoch: 20000. Accuracy: 2.0 %. Q error: 40818.52. Initial Value: 314.13. Final Value: 112.56.

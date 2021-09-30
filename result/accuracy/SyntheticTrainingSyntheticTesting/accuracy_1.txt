@@ -1,0 +1,25 @@
+Learning Rate: 0.001
+Action Dropout: 1.0
+Replay Buffer Size: 5000
+Number of Episodes: 10
+Epoch: 0. Accuracy: 40.0 %. Q error: 9276.327. Initial Value: 307.6. Final Value: 231.96.
+Epoch: 1000. Accuracy: 44.0 %. Q error: 28548.863. Initial Value: 307.6. Final Value: 209.9.
+Epoch: 2000. Accuracy: 72.0 %. Q error: 43447.785. Initial Value: 307.6. Final Value: 168.37.
+Epoch: 3000. Accuracy: 74.0 %. Q error: 44242.977. Initial Value: 307.6. Final Value: 168.9.
+Epoch: 4000. Accuracy: 85.0 %. Q error: 49112.492. Initial Value: 307.6. Final Value: 151.85.
+Epoch: 5000. Accuracy: 72.0 %. Q error: 44115.156. Initial Value: 307.6. Final Value: 168.97.
+Epoch: 6000. Accuracy: 73.0 %. Q error: 38926.672. Initial Value: 307.6. Final Value: 210.65.
+Epoch: 7000. Accuracy: 75.0 %. Q error: 42658.641. Initial Value: 307.6. Final Value: 168.97.
+Epoch: 8000. Accuracy: 70.0 %. Q error: 33188.145. Initial Value: 307.6. Final Value: 229.42.
+Epoch: 9000. Accuracy: 63.0 %. Q error: 30961.125. Initial Value: 307.6. Final Value: 187.13.
+Epoch: 10000. Accuracy: 59.0 %. Q error: 27930.053. Initial Value: 307.6. Final Value: 231.16.
+Epoch: 11000. Accuracy: 70.0 %. Q error: 27432.895. Initial Value: 307.6. Final Value: 233.63.
+Epoch: 12000. Accuracy: 62.0 %. Q error: 24438.584. Initial Value: 307.6. Final Value: 175.84.
+Epoch: 13000. Accuracy: 74.0 %. Q error: 21649.941. Initial Value: 307.6. Final Value: 176.56.
+Epoch: 14000. Accuracy: 61.0 %. Q error: 21795.879. Initial Value: 307.6. Final Value: 226.79.
+Epoch: 15000. Accuracy: 78.0 %. Q error: 21610.82. Initial Value: 307.6. Final Value: 207.47.
+Epoch: 16000. Accuracy: 73.0 %. Q error: 20379.711. Initial Value: 307.6. Final Value: 184.98.
+Epoch: 17000. Accuracy: 75.0 %. Q error: 20835.027. Initial Value: 307.6. Final Value: 184.6.
+Epoch: 18000. Accuracy: 79.0 %. Q error: 18418.252. Initial Value: 307.6. Final Value: 168.05.
+Epoch: 19000. Accuracy: 81.0 %. Q error: 16718.891. Initial Value: 307.6. Final Value: 168.17.
+Epoch: 20000. Accuracy: 78.0 %. Q error: 14977.9. Initial Value: 307.6. Final Value: 151.85.

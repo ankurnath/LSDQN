@@ -1,0 +1,25 @@
+Learning Rate: 0.001
+Action Dropout: 1.0
+Replay Buffer Size: 5000
+Number of Episodes: 1
+Epoch: 0. Accuracy: 20.0 %. Q error: 10.816. Initial Value: 30.85. Final Value: 21.73.
+Epoch: 1000. Accuracy: 40.0 %. Q error: 144.822. Initial Value: 30.85. Final Value: 15.45.
+Epoch: 2000. Accuracy: 70.0 %. Q error: 180.934. Initial Value: 30.85. Final Value: 9.25.
+Epoch: 3000. Accuracy: 50.0 %. Q error: 138.582. Initial Value: 30.85. Final Value: 14.82.
+Epoch: 4000. Accuracy: 50.0 %. Q error: 192.579. Initial Value: 30.85. Final Value: 15.31.
+Epoch: 5000. Accuracy: 20.0 %. Q error: 161.285. Initial Value: 30.85. Final Value: 22.25.
+Epoch: 6000. Accuracy: 80.0 %. Q error: 201.743. Initial Value: 30.85. Final Value: 6.01.
+Epoch: 7000. Accuracy: 70.0 %. Q error: 207.504. Initial Value: 30.85. Final Value: 7.74.
+Epoch: 8000. Accuracy: 30.0 %. Q error: 222.774. Initial Value: 30.85. Final Value: 18.71.
+Epoch: 9000. Accuracy: 10.0 %. Q error: 190.909. Initial Value: 30.85. Final Value: 22.9.
+Epoch: 10000. Accuracy: 30.0 %. Q error: 197.028. Initial Value: 30.85. Final Value: 19.61.
+Epoch: 11000. Accuracy: 20.0 %. Q error: 233.279. Initial Value: 30.85. Final Value: 22.53.
+Epoch: 12000. Accuracy: 20.0 %. Q error: 244.96. Initial Value: 30.85. Final Value: 21.07.
+Epoch: 13000. Accuracy: 20.0 %. Q error: 205.035. Initial Value: 30.85. Final Value: 20.22.
+Epoch: 14000. Accuracy: 80.0 %. Q error: 216.663. Initial Value: 30.85. Final Value: 6.4.
+Epoch: 15000. Accuracy: 10.0 %. Q error: 257.736. Initial Value: 30.85. Final Value: 25.07.
+Epoch: 16000. Accuracy: 40.0 %. Q error: 164.746. Initial Value: 30.85. Final Value: 14.94.
+Epoch: 17000. Accuracy: 10.0 %. Q error: 196.827. Initial Value: 30.85. Final Value: 25.65.
+Epoch: 18000. Accuracy: 40.0 %. Q error: 152.06. Initial Value: 30.85. Final Value: 16.83.
+Epoch: 19000. Accuracy: 20.0 %. Q error: 175.951. Initial Value: 30.85. Final Value: 21.52.
+Epoch: 20000. Accuracy: 30.0 %. Q error: 155.378. Initial Value: 30.85. Final Value: 20.94.

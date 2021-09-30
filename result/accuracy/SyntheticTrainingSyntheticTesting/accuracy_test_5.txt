@@ -1,0 +1,5 @@
+Learning Rate: 0.001
+Action Dropout: 1.0
+Replay Buffer Size: 5000
+Number of Episodes: 10
+Epoch: 0. Accuracy: 5.0 %. Q error: 8625.857. Initial Value: 306.63. Final Value: 272.99.
