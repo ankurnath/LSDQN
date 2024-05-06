@@ -1,4 +1,0 @@
-2021--05--04 19:33:46
-------------------------------------
-{"save_folder": "./test", "train_distr": "plain", "test_distr": "plain", "target_mode": false, "k": 5, "m": "10", "ajr": 49, "h": 64, "rollout_step": 1, "q_step": 2, "batch_size": 1000, "n_episode": 1, "episode_len": 100, "grad_accum": 1, "action_type": "swap", "gnn_step": 3, "test_batch_size": 10, "validation_step": 0, "gpu": "2", "resume": false, "problem_mode": "complete", "readout": "mlp", "edge_info": "adj_dist", "clip_target": 0, "explore_method": "epsilon_greedy", "priority_sampling": 0, "gamma": 0.9, "eps0": 0.5, "eps": 0.1, "explore_end_at": 0.1, "anneal_frac": 0.9, "lr": 0.001, "action_dropout": 1.0, "n_epoch": 20000, "save_ckpt_step": 20000, "target_update_step": 5, "replay_buffer_size": 5000, "sample_batch_episode": 0, "ddqn": false}
-------------------------------------

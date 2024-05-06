@@ -13,7 +13,7 @@ from TSP.canonical_solution import read_TSPLIB_data
 cuda_flag = True
 
 parser = argparse.ArgumentParser(description="GNN with RL")
-parser.add_argument('--save_folder', default='/test')
+parser.add_argument('--save_folder', default='model')
 parser.add_argument('--target_mode', default=False)
 parser.add_argument('--n', default=50, help="size of TSP")
 parser.add_argument('--ajr', default=49, help="")
@@ -41,7 +41,8 @@ parser.add_argument('--explore_end_at', type=float, default=0.1, help="")
 parser.add_argument('--anneal_frac', type=float, default=0.9, help="")
 parser.add_argument('--lr', type=float, default=0.001, help="learning rate")
 parser.add_argument('--action_dropout', type=float, default=1.0)
-parser.add_argument('--n_epoch', default=50000)
+# parser.add_argument('--n_epoch', default=50000)
+parser.add_argument('--n_epoch', default=1)
 parser.add_argument('--save_ckpt_step', default=50000)
 parser.add_argument('--target_update_step', default=5)
 parser.add_argument('--replay_buffer_size', default=5000, help="")
@@ -90,10 +91,11 @@ eps.extend([0] * int(n_epoch))
 save_ckpt_step = int(args['save_ckpt_step'])
 ddqn = bool(args['ddqn'])
 
-path = save_folder + '/'
+path = save_folder + f'/{n}'
+
 if not os.path.exists(path):
     os.makedirs(path)
-
+# print(path,os.path.exists(path))
 G = GraphGenerator(n=n, ajr=ajr)
 Gt = GraphGenerator(n=n, ajr=ajr)
 
@@ -121,13 +123,14 @@ with open(path + 'params', 'w') as params_file:
 bg_test = G.generate_graph(batch_size=test_episode, cuda_flag=cuda_flag)
 
 test_g, problem_list, opt_value, size_list, scales = read_TSPLIB_data(ajr=ajr, cuda_flag=cuda_flag, scale=True)
-
+# print('finished')
 
 def run_dqn(alg):
     r = np.ones((100, len(test_g))) * 100
     t = 0
 
-    for n_iter in tqdm(range(n_epoch)):
+    # for n_iter in tqdm(range(n_epoch)):
+    for n_iter in range(n_epoch):
 
         alg.eps = eps[n_iter]
 
@@ -171,4 +174,5 @@ def run_dqn(alg):
                 epi_r0 = r.min(axis=0).mean()
 
 if __name__ == '__main__':
+    # pass
     run_dqn(alg)
